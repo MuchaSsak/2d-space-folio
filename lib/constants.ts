@@ -4,7 +4,7 @@ export const GITHUB_AVATAR_URL =
 export const LINKEDIN_PROFILE_URL =
   "https://uk.linkedin.com/in/mateusz-muszarski-b1168a28a";
 export const CONTACT_EMAIL = "mat.muszarski@gmail.com";
-export const WEBSITE_URL = "2d.muszarski.space";
+export const WEBSITE_URL = "https://2d.muszarski.space";
 
 export const EMAILJS_PUBLIC_KEY = "Unh7wKuX7D61UVGOX";
 export const EMAILJS_SERVICE_ID = "service_ygvcefb";
