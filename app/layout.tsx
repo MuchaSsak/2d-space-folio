@@ -47,7 +47,16 @@ export const metadata: Metadata = {
   creator: "Mateusz Muszarski",
   applicationName: "Mateusz Muszarski | 2D Space Portfolio",
   generator: "Next.js",
-  robots: "index, follow",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   metadataBase: new URL(WEBSITE_URL),
   openGraph: {
     title: "Mateusz Muszarski | 2D Space Portfolio",
